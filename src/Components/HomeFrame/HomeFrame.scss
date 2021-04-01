@@ -1,0 +1,20 @@
+.all{
+    background-color: rgba(33, 125, 187, 0.8);
+}
+.navbar{
+    display: flex;
+    height: 60px;
+    width: 50%;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.item{
+    font-weight: bold;
+    color: rgba(33, 125, 187, 0.8);  
+    cursor: pointer; 
+    &:hover{
+        text-decoration: underline;
+    }
+}
