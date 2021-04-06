@@ -2,6 +2,7 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { HomeFrame } from './Components/HomeFrame/HomeFrame';
 import { AboutFrame } from './Components/AboutFrame/AboutFrame';
+import { ExperiencesFrame } from './Components/ExperiencesFrame/ExperiencesFrame';
 
 
 class App extends React.Component{
@@ -10,6 +11,7 @@ class App extends React.Component{
       <div>
           <HomeFrame/>
           <AboutFrame/>
+          <ExperiencesFrame/>
       </div>
     )
   }
