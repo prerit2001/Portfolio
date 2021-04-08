@@ -45,10 +45,6 @@ $green: #217dbb;
       bottom: 2px;
       left: 2px;
     }
-    @for $i from 1 through 5 {
-      					&:nth-child(#{$i}):after {
-      }
-				    }
     &[aria-label="novice"]:after {
       right: 75%;
     }

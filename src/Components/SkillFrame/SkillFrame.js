@@ -9,15 +9,15 @@ export const SkillFrame = () => {
         <br/>
         <br/>
         <br/>
-            <ul class="skills">
+            <ul class="skills" style={{fontWeight: "bold"}}>
             <li class="skill" aria-label="advanced">Data Structure and Algorithm</li>
             <li class="skill" aria-label="advanced">MERN Stack Web Development</li>
             <li class="skill" aria-label="average">Android Development</li>
-            <li class="skill" aria-label="l33tasuar">C/C++</li>　　　
+            <li class="skill" aria-label="l33tasuar">C/C++</li>　
             <li class="skill" aria-label="novice">Java</li>
             <li class="skill" aria-label="average">Python</li>
             </ul>
-
+        <br/>
         </div>
     )
 }
