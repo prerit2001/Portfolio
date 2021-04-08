@@ -65,8 +65,6 @@ export const EducationFrame = () => {
                             </p>
                         </div>
                     </div>
-                    
-                
                 </div>
         </div>
     </section>
