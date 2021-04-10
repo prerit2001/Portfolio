@@ -1,0 +1,26 @@
+/* Layout: */
+
+.col-main {
+    flex: 1;  
+  }  
+  
+  .col-complementary {
+    flex: 1;  
+  }
+  
+  /* Responsive: */
+  
+  @media only screen and (min-width: 640px) {
+    .layout {
+      display: flex;
+    }
+  }
+  
+  /* etc */
+  
+  .col {
+    padding: 1em;
+    margin: 0 2px 2px 0;
+    background: #f2f2f5;
+    margin: 10px;
+  }
