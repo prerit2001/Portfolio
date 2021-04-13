@@ -7,6 +7,8 @@ import { EducationFrame } from './Components/EducationFrame/EducationFrame';
 import { SkillFrame } from './Components/SkillFrame/SkillFrame';
 import { AchievementsFrame } from './Components/AchievementsFrame/AchievementsFrame';
 import { ProjectFrame } from './Components/ProjectsFrame/ProjectFrame';
+import { ContactFrame } from './Components/ContactFrame/ContactFrame';
+import { Footer } from './Components/FooterFrame/FooterFrame';
 
 
 class App extends React.Component{
@@ -20,6 +22,8 @@ class App extends React.Component{
           <SkillFrame/>
           <AchievementsFrame/>
           <ProjectFrame/>
+          <ContactFrame/>
+          <Footer/>
       </div>
     )
   }
