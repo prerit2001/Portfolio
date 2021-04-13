@@ -28,7 +28,7 @@ export const AchievementsFrame = () => {
                         <br/>
                         <li ><b>CodeForces</b> :<strong style={{color:"blue"}}> Rating 1627 : Expert</strong> : <i>[ @prerit2001 ]</i> </li>
                         <li ><b>CodeChef</b> :<strong style={{color:"orange"}}> Rating 2063 : 5 Star</strong> : <i>[ @legend_op</i> ]</li> 
-                        <li ><b>LeetCode</b> : <strong style={{color:"brown"}}>Rating 1780 :</strong> <i>[ @legend_op ]</i> </li>
+                        <li ><b>LeetCode</b> : <strong style={{color:"black"}}>Rating 1780 :</strong> <i>[ @legend_op ]</i> </li>
                     </ul>
                     </p>  
                 </div>   
