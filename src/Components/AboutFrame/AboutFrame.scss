@@ -14,3 +14,25 @@ bottom:-5px;
 left:0; 
 right:0;   
 }
+
+.colum {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 100 px;
+    border: 5px solid white; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .ro:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .colum {
+      width: 100%;
+    }
+  }

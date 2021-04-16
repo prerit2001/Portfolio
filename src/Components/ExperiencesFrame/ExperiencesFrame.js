@@ -4,10 +4,15 @@ import {AiOutlineFieldTime} from 'react-icons/ai'
 import {Button} from 'react-bootstrap'
 
 export const ExperiencesFrame = () => {
+
+
+    const [background, setmode] = React.useState(sessionStorage.getItem("Mode")=="Dark" ? "#000" : "#f2f2f5");
+    const [text, settext] = React.useState(sessionStorage.getItem("Mode")=="Dark" ? "#fff" : "#374054");
+
     return (
-        <div style={{textAlign: "center",fontFamily: "'Lato', sans-serif",background: "#f2f2f5",padding:"50px"}}>
+        <div style={{textAlign: "center",fontFamily: "'Lato', sans-serif",background: `${background}`,padding:"50px"}}>
             
-        <p class="underline-small" style={{textAlign: "center",fontFamily: "'Lato', sans-serif",fontSize: "2em",color:"#374054"}}>Experience</p>
+        <p class="underline-small" style={{textAlign: "center",fontFamily: "'Lato', sans-serif",fontSize: "2em",color:`${text}`}}>Experience</p>
         <br/>
         <br/>
         <br/>

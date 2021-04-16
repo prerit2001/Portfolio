@@ -13,6 +13,12 @@ import './App.css'
 
 
 class App extends React.Component{
+  constructor(props) {
+    super(props);
+    this.Mode = "Light";
+    sessionStorage.setItem("Mode","Light");
+  }
+
   render(){
     return (
       <div>
@@ -27,7 +33,7 @@ class App extends React.Component{
           <Footer/>
           <div className="covered">
           <input type= "checkbox" className="open-button"/><br/>
-          LIGHT
+          <b style={{fontFamily: ""}}>Surf Dark</b>
           </div>
       </div>
     )

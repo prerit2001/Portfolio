@@ -16,6 +16,23 @@ export const AboutFrame = () => {
                 Grounded and solution oriented CS student. Adept at motivating self and others. Passionate about new data structure,
                 algorithm and mathematics.Proficient in web development and android development both.
                 </p>
+                <div class="ro">
+                    <div class="colum" style={{backgroundColor:"#f2f2f5"}}>
+                    <p><b style={{fontSize: "1.5rem",color: "#000"}}>CodeForces</b><br/>
+                        <b style={{color: "blue"}}>Rated 1639<br/>
+                        Expert</b></p>
+                    </div>
+                    <div class="colum" style={{backgroundColor:"#f2f2f5"}}>
+                    <p><b style={{fontSize: "1.5rem",color: "#000"}}>CodeChef</b><br/>
+                    <b style={{color: "orange"}}>Rated 2063<br/>
+                        5 Star</b></p>
+                    </div>
+                    <div class="colum" style={{backgroundColor:"#f2f2f5"}}>
+                    <p><b style={{fontSize: "1.5rem",color: "#000"}}>LeetCode</b><br/>
+                    <b style={{color: "brown"}}>Rated 1841<br/>
+                        -</b></p>
+                    </div>
+                </div>
             </div>
 
         </div>
