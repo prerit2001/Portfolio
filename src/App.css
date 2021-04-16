@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 }
+
+.covered{
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  text-align: center;
+}
+
+.open-button {
+
+  
+    -webkit-appearance: none;
+    position: relative;
+    width: 100px;
+    height: 50px;
+    background-image: url(https://i.postimg.cc/857jHw2q/Screenshot-2020-04-16-at-1-07-06-PM.png);
+    background-size: cover;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+  
+
+}
+
+
+.open-button:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 50px;
+  background: url(https://icon-library.com/images/moon-and-star-icon/moon-and-star-icon-9.jpg);
+  background-size: cover ;
+  border-radius: 50px;
+}
+
+
+.open-button:checked {
+  background-image: url(https://i.postimg.cc/Hn0nstVK/Screenshot-2020-04-16-at-1-07-19-PM.png);
+  background-color: green;
+
+}
+
+.open-button:checked:before {
+  transform: translate(100%);
+  background: url(https://png.pngtree.com/png-clipart/20190905/original/pngtree-sunny-to-cloudy-icon-png-image_4525767.jpg);
+  background-size: cover ;
+}

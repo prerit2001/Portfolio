@@ -9,6 +9,7 @@ import { AchievementsFrame } from './Components/AchievementsFrame/AchievementsFr
 import { ProjectFrame } from './Components/ProjectsFrame/ProjectFrame';
 import { ContactFrame } from './Components/ContactFrame/ContactFrame';
 import { Footer } from './Components/FooterFrame/FooterFrame';
+import './App.css'
 
 
 class App extends React.Component{
@@ -24,6 +25,10 @@ class App extends React.Component{
           <ProjectFrame/>
           <ContactFrame/>
           <Footer/>
+          <div className="covered">
+          <input type= "checkbox" className="open-button"/><br/>
+          LIGHT
+          </div>
       </div>
     )
   }

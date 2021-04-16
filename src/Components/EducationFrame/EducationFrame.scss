@@ -63,12 +63,12 @@ ul {
 }
 
 .we-offer-area .our-offer-carousel .owl-dots .owl-dot.active span {
-  background: #217dbb none repeat scroll 0 0;
+  background: green none repeat scroll 0 0;
   border-color: #217dbb;
 }
 
 .we-offer-area .item {
-  background: #ffffff none repeat scroll 0 0;
+  background: green none repeat scroll 0 0;
   border-left: 2px solid #217dbb;
   -moz-box-shadow: 0 0 10px #cccccc;
   -webkit-box-shadow: 0 0 10px #cccccc;
@@ -81,9 +81,13 @@ ul {
 }
 
 .we-offer-area.text-center .item {
-  background: #f2f2f5 none repeat scroll 0 0;
+  background: #217dbb none repeat scroll 0 0;
   border: medium none;
   padding: 67px 40px 64px;
+  color: #fff;
+  cursor:initial;
+  text-decoration: none;
+ 
 }
 
 .we-offer-area.text-center .item i {

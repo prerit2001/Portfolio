@@ -19,7 +19,7 @@ export const EducationFrame = () => {
                 <div class="row our-offer-items less-carousel">
                     <div class="col-md-4 col-sm-6 equal-height">
                         <div class="item">
-                            <ImLocation2 style={{width: "25%",height: "1%"}} className="changee"/>
+                            <ImLocation2 style={{width: "25%",height: "1%",color: "white"}} className="changee"/>
                             <h4>Indian Institute of Information Technology, Pune</h4>
                             <p>
                                 <ul>
@@ -35,7 +35,7 @@ export const EducationFrame = () => {
                     </div>
                     <div class="col-md-4 col-sm-6 equal-height">
                         <div class="item">
-                            <ImLocation2 style={{width: "25%",height: "1%"}} className="changee"/>
+                            <ImLocation2 style={{width: "25%",height: "1%",color: "white"}} className="changee"/>
                             <h4>Digdarshan Higher Secondary School,<br/> Patna</h4>
                             <p>
                                 <ul>
@@ -51,11 +51,11 @@ export const EducationFrame = () => {
                     </div>
                     <div class="col-md-4 col-sm-6 equal-height">
                         <div class="item">
-                            <ImLocation2 style={{width: "25%",height: "1%"}} className="changee"/>
+                            <ImLocation2 style={{width: "25%",height: "1%",color: "white"}} className="changee"/>
                             <h4>Kendriya Vidyalaya Sangathan(KVS) No. 1, Patna</h4>
                             <p>
                                 <ul>
-                                    <li> 2016 - 2017</li>
+                                    <li> 2016 - 2017 </li>
                                     <li> 10th Board</li>
                                     <li> Science, CBSE</li>
                                     <p className="masthead-intro">
