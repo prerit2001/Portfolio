@@ -41,7 +41,7 @@ export const Footer = () => {
             <AiFillGithub/>　
             </div>
             <br/>
-           <div style={{color: `${text}`}}><b> © Copyright Prerit Kumar Jha. All Rights Reserved </b></div>
+           <div style={{color: `${text}`,textAlign: "center"}}><b> © Copyright Prerit Kumar Jha. All Rights Reserved </b></div>
       </FooterContainer>
     </>
   );

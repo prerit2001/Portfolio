@@ -10,12 +10,13 @@ export const ProjectFrame = () => {
     const [background, setmode] = React.useState(sessionStorage.getItem("Mode")=="Dark" ? "#000" : "#f2f2f5");
     const [text, settext] = React.useState(sessionStorage.getItem("Mode")=="Dark" ? "#fff" : "#374054");
     return (
-        <div style={{textAlign: "center",fontFamily: "'Lato', sans-serif",background: `${background}`,padding:"50px"}}>
+        <div style={{textAlign: "center",fontFamily: "'Lato', sans-serif",background: `${background}`,padding:"10px"}}>
                 
             <p class="underline-small" style={{textAlign: "center",fontFamily: "'Lato', sans-serif",fontSize: "2em",color: `${text}`}}>Projects</p>
             <br/>
             <br/>
             <br/>
+
             <div class="container"> 
                 <div class="layout" style={{margin: "auto"}}>
                     <p class="col col-main" style={{background: "white"}}>

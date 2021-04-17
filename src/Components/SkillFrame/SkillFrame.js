@@ -12,10 +12,11 @@ export const SkillFrame = () => {
         <br/>
         <br/>
             <ul class="skills" style={{fontWeight: "bold",color:`${text}`}}>
-            <li class="skill" aria-label="advanced">Data Structure and Algorithm</li>
-            <li class="skill" aria-label="advanced">MERN Stack Web Development</li>
+            <li class="skill" aria-label="l33tasuar">Data Structure</li>
+            <li class="skill" aria-label="l33tasuar">Algorithm</li>
+            <li class="skill" aria-label="advanced">MERN Web Dev</li>
             <li class="skill" aria-label="average">Android Development</li>
-            <li class="skill" aria-label="l33tasuar">C/C++</li>　
+            <li class="skill" aria-label="l33tasuar">C/C++</li>
             <li class="skill" aria-label="novice">Java</li>
             <li class="skill" aria-label="average">Python</li>
             </ul>

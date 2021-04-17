@@ -12,7 +12,7 @@ export const AchievementsFrame = () => {
             <br/>
             <br/>
             <br/>
-            <div class="container" style={{background: "gray"}}>
+            <div class="container" style={{background: ""}}>
   
                 <div class="layout" style={{margin: "auto"}}>
                     <p class="col col-main" style={{background: `${background}`,color: `${text}`}}>

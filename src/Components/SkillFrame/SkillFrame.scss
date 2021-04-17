@@ -19,7 +19,7 @@ $green: #217dbb;
     @media only screen and (min-width: 1230px) {
       display: inline-block;
 			      width: percentage(1/4);
-      margin: 10px;
+            margin: 10px;
     }
     &:before,
     &:after {
@@ -65,7 +65,7 @@ $green: #217dbb;
     }
     &[aria-label="l33tasuar"]:after {
       // turn it up to 11!
-      right: -10%;
+      right: 0%;
     }
   }
 }
