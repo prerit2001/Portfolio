@@ -15,6 +15,16 @@ left:0;
 right:0;   
 }
 
+.abountF{
+  width: 70%;
+}
+
+@media screen and (max-width: 900px) {
+  .aboutF{
+    width: 100%;
+  }
+}
+
 .colum {
     float: left;
     width: 33.33%;

@@ -16,7 +16,14 @@ class App extends React.Component{
   constructor(props) {
     super(props);
     this.Mode = "Light";
-    sessionStorage.setItem("Mode","Light");
+    if(sessionStorage.getItem("Mode") == "Dark")
+      sessionStorage.setItem("Mode","Dark");
+    else sessionStorage.setItem("Mode","Light");
+  }
+
+  ModeChange() {
+    sessionStorage.getItem("Mode")=="Light" ? sessionStorage.setItem("Mode","Dark") : sessionStorage.setItem("Mode","Light");
+    window.location.reload(false);
   }
 
   render(){
@@ -31,9 +38,14 @@ class App extends React.Component{
           <ProjectFrame/>
           <ContactFrame/>
           <Footer/>
-          <div className="covered">
-          <input type= "checkbox" className="open-button"/><br/>
-          <b style={{fontFamily: ""}}>Surf Dark</b>
+          <div className="covered" onClick={this.ModeChange}>
+          { sessionStorage.getItem("Mode")=="Light" ? 
+          <><input type= "checkbox"  className="open-button"/><br/></>
+          :
+          <><input type= "checkbox"  className="open-button" checked/><br/></>
+          }
+
+          <b style={{fontFamily: ""}}>Switch { sessionStorage.getItem("Mode")=="Light" ? "Dark" : "Light"}</b>
           </div>
       </div>
     )

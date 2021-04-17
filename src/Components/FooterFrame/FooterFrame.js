@@ -18,12 +18,13 @@ import {GrFormLocation,GrResume} from 'react-icons/gr'
 import {AiFillPhone,AiFillMail,AiFillLinkedin,AiFillGithub,} from 'react-icons/ai'
 
 export const Footer = () => {
+  const [text, settext] = React.useState(sessionStorage.getItem("Mode")=="Dark" ? "#000" : "#fff");
   return (
     <>
       <FooterContainer>
         <FooterSubscription>
-          <FooterSubHeading>
-            Get Bang The Subscribe Button Below To Recieve My Latest Updates.
+          <FooterSubHeading style={{color: `${text}`}}>
+            <b>Get Bang The Subscribe Button Below To Recieve My Latest Updates.</b>
           </FooterSubHeading>
           <div class="custom-form">
           <div class="custom-form-label">
@@ -34,13 +35,13 @@ export const Footer = () => {
                 <Button variant="primary" style={{background : "#16569a",marginTop: "5px"}}>Subscribe</Button>{' '}
           </div>
         </FooterSubscription>
-        <div style={{color:"#fff",fontSize: "2rem",marginTop: "20px"}}>
+        <div style={{color: `${text}`,fontSize: "2rem",marginTop: "20px"}}>
             <AiFillLinkedin/>　
             <AiFillMail/>　
             <AiFillGithub/>　
             </div>
             <br/>
-           <div style={{color: "#fff"}}> © Copyright Prerit Kumar Jha. All Rights Reserved </div>
+           <div style={{color: `${text}`}}><b> © Copyright Prerit Kumar Jha. All Rights Reserved </b></div>
       </FooterContainer>
     </>
   );

@@ -42,11 +42,10 @@
   left: 20px;
   bottom: 20px;
   text-align: center;
+  z-index: 1000;
 }
 
 .open-button {
-
-  
     -webkit-appearance: none;
     position: relative;
     width: 100px;
@@ -56,11 +55,8 @@
     border-radius: 50px;
     outline: none;
     cursor: pointer;
-  
 
 }
-
-
 .open-button:before {
   content: "";
   position: absolute;
@@ -71,6 +67,17 @@
   background: url(https://icon-library.com/images/moon-and-star-icon/moon-and-star-icon-9.jpg);
   background-size: cover ;
   border-radius: 50px;
+}
+
+@media screen and (max-width: 900px) {
+  .open-button{
+    width : 60px;
+      height : 30px;
+  }
+  .open-button:before {
+    width : 30px;
+    height : 30px;
+  }
 }
 
 
