@@ -3,6 +3,12 @@ import './HomeFrame.scss'
 import TypeIt from "typeit-react";
 import {Button} from 'react-bootstrap'
 import {AiFillGithub,AiFillLinkedin,AiFillMail,AiFillDownCircle} from 'react-icons/ai'
+import {VscThreeBars} from 'react-icons/vsc'
+import {
+    Navbar,
+    Nav,
+    NavDropdown
+} from 'react-bootstrap'
 
 
 export const HomeFrame = () => {
@@ -12,14 +18,30 @@ export const HomeFrame = () => {
     return (
         <div className="all">
            
-            <div className="navbar" style={{background: `${background}`,zIndex: "100"}}>
+            {/* <div className="navbar" style={{background: `${background}`,zIndex: "100"}}>
                 <a href="/" className="item" style={{color: `${text}`}}>About</a>
                 <a href="/" className="item" style={{color: `${text}`}}>Experiences</a>
                 <a href="/" className="item" style={{color: `${text}`}}>Education</a>
                 <a href="/" className="item" style={{color: `${text}`}}>Skills</a>
                 <a href="/" className="item" style={{color: `${text}`}}>Projects</a>
                 <a href="/" className="item" style={{color: `${text}`}}>Contact</a>
-            </div>
+            </div> */}
+
+            <>
+            <Navbar expand="lg" style={{background: `${background}`,zIndex: "100"}}>
+  <Navbar.Toggle aria-controls="basic-navbar-nav" style={{color: `${text}`}}><VscThreeBars/></Navbar.Toggle>
+  <Navbar.Collapse id="basic-navbar-nav">
+    <Nav className="m-auto">
+      <Nav.Link className="item" style={{background: `${background}`,color: `${text}`}} href="#home">About</Nav.Link>
+      <Nav.Link className="item" style={{background: `${background}`,color: `${text}`}} href="#link">Experiences</Nav.Link>
+      <Nav.Link className="item" style={{background: `${background}`,color: `${text}`}} href="#link">Education</Nav.Link>
+      <Nav.Link className="item" style={{background: `${background}`,color: `${text}`}} href="#link">Skills</Nav.Link>
+      <Nav.Link className="item" style={{background: `${background}`,color: `${text}`}} href="#link">Projects</Nav.Link>
+      <Nav.Link className="item" style={{background: `${background}`,color: `${text}`}} href="#link">Contact</Nav.Link> 
+    </Nav>
+  </Navbar.Collapse>
+</Navbar>
+</>
 
             <header class='masthead'>
                 <p class='masthead-intro' style={{color: `${text2}`}}>Hi I'm</p>

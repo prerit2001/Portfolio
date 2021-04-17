@@ -5,13 +5,12 @@
 .navbar{
     display: flex;
     height: 60px;
-    width: 600px;
+    width: 550px;
     margin: auto;
     background-color: white;
-    font-size: 17px;
+    font-size: 19px;
 }
-.item{
-    color: rgba(33, 125, 187, 0.8);  
+.item{ 
     cursor: pointer; 
     font-family: system-ui;
     &:hover{
@@ -21,8 +20,14 @@
 
 @media only screen and (max-width: 900px) {
     .navbar {
-      width: 500px;
+      width: 100%;
       font-size: 14px;
+    }
+  }
+@media only screen and (max-width: 900px) {
+    .item {
+      background-color: black;
+      text-align: center;
     }
   }
 
@@ -70,3 +75,5 @@
 .pack{
     background-color: white;
 }
+
+

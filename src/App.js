@@ -36,16 +36,14 @@ class App extends React.Component{
           <SkillFrame/>
           <AchievementsFrame/>
           <ProjectFrame/>
-          <ContactFrame/>
+          {/* <ContactFrame/> */}
           <Footer/>
           <div className="covered" onClick={this.ModeChange}>
           { sessionStorage.getItem("Mode")=="Light" ? 
-          <><input type= "checkbox"  className="open-button"/><br/></>
+          <><input type= "checkbox"  className="open-button"/><br/><b style={{fontFamily: "",color: "black"}}>Switch { sessionStorage.getItem("Mode")=="Light" ? "Dark" : "Light"}</b></>
           :
-          <><input type= "checkbox"  className="open-button" checked/><br/></>
+          <><input type= "checkbox"  className="open-button" checked/><br/><b style={{fontFamily: "",color: "white"}}>Switch { sessionStorage.getItem("Mode")=="Light" ? "Dark" : "Light"}</b></>
           }
-
-          <b style={{fontFamily: ""}}>Switch { sessionStorage.getItem("Mode")=="Light" ? "Dark" : "Light"}</b>
           </div>
       </div>
     )

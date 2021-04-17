@@ -12,7 +12,7 @@ export const AboutFrame = () => {
             <br/>
             <br/>
             <br/>
-            <div className="aboutF" style={{margin: "auto",color: "#74808A"}}>
+            <div className="aboutf" style={{margin: "auto",color: "#74808A"}}>
                 <p>Hello, I am <strong>Prerit Kumar Jha</strong>, an undergraduate student, currently in my second year, pursuing 
                 B.Tech in Computer Science Engineering<strong>(CSE)</strong> at <strong>Indian Institute of Information Technology(IIIT), Pune.</strong></p>
                 <p>
