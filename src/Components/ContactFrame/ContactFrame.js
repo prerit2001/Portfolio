@@ -6,9 +6,68 @@ import {AiFillPhone,AiFillMail,AiFillLinkedin,AiFillGithub,} from 'react-icons/a
 
 
 export const ContactFrame = () => {
+    const [background, setmode] = React.useState(sessionStorage.getItem("Mode")=="Dark" ? "#000" : "#f2f2f5");
+    const [text, settext] = React.useState(sessionStorage.getItem("Mode")=="Dark" ? "#fff" : "#374054");
+    const [border, setborder] = React.useState(sessionStorage.getItem("Mode")=="Dark" ? "gray" : "#fff");
+
     return (
-        <div>
-            <div style={{textAlign: "center",fontFamily: "'Lato', sans-serif",padding:"50px"}}>
+        <div style={{textAlign: "center",marginTop: "40px",marginBottom: "40px"}}>
+
+
+        <p class="underline-small" style={{textAlign: "center",fontFamily: "'Lato', sans-serif",fontSize: "2em",color:"#374054"}}>Contact</p>
+
+
+        <div class="roww" style={{margin: "auto"}}>
+            <div class="colummm" style={{background: "white",transform: "translate(-8px,0)"}}>
+            <div class="text-center my-wrap pt-5 pb-5">
+            <div class="custom-form" >
+                <div class="custom-form-label">
+                    <label for="userid">Email Address</label>
+                </div>
+                <input type="text" name="userid" class="custom-form-control" placeholder="" required="" />
+            </div>
+            <div class="custom-form">
+                <div class="custom-form-label">
+                    <label for="subject">Subject</label>
+                </div>
+                <input type="subject" name="Subject" class="custom-form-control" placeholder="" required="" />
+            </div>
+            <div class="custom-form"> 
+                <div class="custom-form-label">
+                    <label for="password">Message</label>
+                </div>
+                <textarea rows="6" name="message" class="custom-form-control" placeholder="" required="" />
+            </div>
+            <Button variant="primary" style={{background : "#217dbb"}}>SEND MAIL</Button>{' '}
+            </div>
+            </div>
+            <div class="colummm" style={{fontSize: "1.5rem"}}>
+            <br/><br/><br/>
+            <strong>PRERIT KUMAR JHA</strong><br/>
+            A CP-DEV Geek from IIIT Pune  
+            <hr/>
+                <p style={{textAlign: "center"}}>
+                <AiFillPhone/> (+91) 9110939089 <br/>
+                <AiFillMail/> preritkrjha@gmail.com <br/>
+                <GrFormLocation/> Patna, Bihar <br/>
+                <AiFillLinkedin/>　
+                <AiFillMail/>　
+                <AiFillGithub/>　
+                <GrResume/>
+                </p>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+            {/* <div style={{textAlign: "center",fontFamily: "'Lato', sans-serif",padding:"50px"}}>
             
            
             <br/>
@@ -36,41 +95,30 @@ export const ContactFrame = () => {
                 <div class="custom-form-label">
                     <label for="password">Message</label>
                 </div>
-                <textarea rows="6" cols="30" name="message" class="custom-form-control" placeholder="" required="" />
+                <textarea rows="6" name="message" class="custom-form-control" placeholder="" required="" />
             </div>
             <Button variant="primary" style={{background : "#217dbb"}}>SEND MAIL</Button>{' '}
             </div>
 
       </p>
-      <p class="col col-complementary" role="complementary" style={{background: "#fff", padding : "60px"}}>      
-            
-            <div style={{fontSize: "1.5rem"}}>    
+      <p class="col" role="complementary" style={{background: "#fff",marginTop: "100px", textAlign:"center",fontSize: "1.5rem"}}>      
+
             <strong>PRERIT KUMAR JHA</strong><br/>
             A CP-DEV Geek from IIIT Pune  
             <hr/>
-            </div>
-            <div>
-            <br/>
-            <br/>
-            <br/>
-            <div style={{fontSize: "1.5rem"}}>
-            <AiFillPhone/> (+91) 9110939089
-            <br/>
-            <AiFillMail/> preritkrjha@gmail.com
-            <br/>
-            <GrFormLocation/> Patna, Bihar
-            </div>
-            <div style={{fontSize: "2rem",marginTop: "20px"}}>
+            <p style={{textAlign: "center"}}>
+            <AiFillPhone/> (+91) 9110939089 <br/>
+            <AiFillMail/> preritkrjha@gmail.com <br/>
+            <GrFormLocation/> Patna, Bihar <br/>
             <AiFillLinkedin/>　
             <AiFillMail/>　
             <AiFillGithub/>　
             <GrResume/>
-            </div>
-            </div>
+            </p>
       </p>  
   </div>   
 </div>
-            </div>
+            </div> */}
         </div>
     )
 }

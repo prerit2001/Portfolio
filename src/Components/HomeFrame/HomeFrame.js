@@ -18,14 +18,6 @@ export const HomeFrame = () => {
     return (
         <div className="all">
            
-            {/* <div className="navbar" style={{background: `${background}`,zIndex: "100"}}>
-                <a href="/" className="item" style={{color: `${text}`}}>About</a>
-                <a href="/" className="item" style={{color: `${text}`}}>Experiences</a>
-                <a href="/" className="item" style={{color: `${text}`}}>Education</a>
-                <a href="/" className="item" style={{color: `${text}`}}>Skills</a>
-                <a href="/" className="item" style={{color: `${text}`}}>Projects</a>
-                <a href="/" className="item" style={{color: `${text}`}}>Contact</a>
-            </div> */}
 
             <>
             <Navbar expand="lg" style={{background: `${background}`,zIndex: "100"}}>
@@ -60,7 +52,6 @@ export const HomeFrame = () => {
                             .delete(20)
                             .pause(1000)
                             .type("Android Developer")
-                            .pause(1000)
                             return instance;
                         }}
                     />

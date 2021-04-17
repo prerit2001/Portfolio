@@ -19,7 +19,7 @@ export const ProjectFrame = () => {
 
             <div class="container"> 
                 <div class="layout" style={{margin: "auto"}}>
-                    <p class="col col-main" style={{background: "white"}}>
+                    <p class="col col-main" style={{background: "white",transform: "translate(-8px,0)"}}>
                     <strong>LocoCart : We Connect Locally</strong><br/>
                           Bidding Based E-commerce website<br/><br/>
                     <img src={LocoCart} width="100%" height="300px"/>
@@ -27,7 +27,7 @@ export const ProjectFrame = () => {
                     <Button variant="outline-primary" style={{margin: "10px"}}>Demo</Button>
                     <Button variant="outline-primary"  style={{margin: "10px"}}>More</Button>
                     </p>
-                    <p class="col col-complementary" role="complementary" style={{background: "white"}}>
+                    <p class="col col-complementary" role="complementary" style={{background: "white",transform: "translate(-8px,0)"}}>
                     <strong>My Phone Companion</strong><br/>
                           Access Your Phone Without Internet<br/><br/>
                     <img src={PhoneCompanion} width="50%" height="300px"/><br/>
@@ -40,7 +40,7 @@ export const ProjectFrame = () => {
             <br/>
             <div class="container"> 
                 <div class="layout" style={{margin: "auto"}}>
-                    <p class="col col-main" style={{background: "white"}}>
+                    <p class="col col-main" style={{background: "white",transform: "translate(-8px,0)"}}>
                     <strong>Gifter</strong><br/>
                     Medium Between Needy and Patron For Their Desired Needs<br/><br/>
                     <img src={Gifter} width="100%" height="300px"/>
@@ -48,7 +48,7 @@ export const ProjectFrame = () => {
                     <Button variant="outline-primary" style={{margin: "10px"}}>Demo</Button>
                     <Button variant="outline-primary"  style={{margin: "10px"}}>More</Button>
                     </p>
-                    <p class="col col-complementary" role="complementary" style={{background: "white"}}>
+                    <p class="col col-complementary" role="complementary" style={{background: "white",transform: "translate(-8px,0)"}}>
                     <strong>Whatsapp Clone</strong><br/>
                     Having All Necessary Features Of a Chat App<br/><br/>
                     <img src={"https://github.com/prerit2001/Whatsapp-Clone-Android-Stdio/blob/master/Screenshots/Screenshot_2020-06-29-18-53-13-64_fbe4b7aaa480e2323ff2703fedbc7818.png?raw=true"} width="50%" height="300px"/>
@@ -62,7 +62,7 @@ export const ProjectFrame = () => {
             <br/>
             <div class="container"> 
                 <div class="layout" style={{margin: "auto"}}>
-                    <p class="col col-main" style={{background: "white"}}>
+                    <p class="col col-main" style={{background: "white",transform: "translate(-8px,0)"}}>
                     <strong>Movie-Recommendation-System</strong><br/>
                     Machine Learning Script Based on Recommendation System<br/><br/>
                     <img src={"https://github.com/prerit2001/Movie-Recommendation-System-ML/blob/master/Screenshot/Capture1.PNG?raw=true"} width="100%" height="200px"/><br/>
@@ -70,7 +70,7 @@ export const ProjectFrame = () => {
                     <Button variant="outline-primary" style={{margin: "10px"}}>Demo</Button>
                     <Button variant="outline-primary"  style={{margin: "10px"}}>More</Button>
                     </p>
-                    <p class="col col-complementary" role="complementary" style={{background: "white"}}>
+                    <p class="col col-complementary" role="complementary" style={{background: "white",transform: "translate(-8px,0)"}}>
                     <strong>Sodoku Solver</strong><br/>
                     Pygame , OpenCV based Soduko Solver<br/><br/>
                     <img src={"https://github.com/prerit2001/Backtracking-Bump-Python-Pygame/blob/master/Screenshots/2.PNG?raw=true"} width="50%" height="200px"/>
@@ -84,7 +84,7 @@ export const ProjectFrame = () => {
             <br/>
             <div class="container"> 
                 <div class="layout" style={{margin: "auto"}}>
-                    <p class="col col-main" style={{background: "white"}}>
+                    <p class="col col-main" style={{background: "white",transform: "translate(-8px,0)"}}>
                     <strong>Reactjs ChatApp</strong><br/>
                     A WebChat App Built using React Js<br/><br/>
                     <img src={ChatApp} width="100%" height="300px"/>
@@ -92,7 +92,7 @@ export const ProjectFrame = () => {
                     <Button variant="outline-primary" style={{margin: "10px"}}>Demo</Button>
                     <Button variant="outline-primary"  style={{margin: "10px"}}>More</Button>
                     </p>
-                    <p class="col col-complementary" role="complementary" style={{background: "white"}}>
+                    <p class="col col-complementary" role="complementary" style={{background: "white",transform: "translate(-8px,0)"}}>
                     <strong>Virtual Interview Platform(VIP)</strong><br/>
                     Live interviews, chat box, result portal, confrencing etc.<br/><br/>
                     <img src={"https://github.com/BTP-Project/Virtual-Interview-NodeJs-MySql/blob/master/Screenshots/1.PNG?raw=true"} width="100%" height="300px"/>

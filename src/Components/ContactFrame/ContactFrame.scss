@@ -79,3 +79,26 @@
 {
   outline: none;
 }
+
+
+.colummm {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 100 px;
+    border: 5px solid white; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .roww:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .colummm {
+      width: 100%;
+    }
+  }
