@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.0c19e074.chunk.css",
+    "main.js": "/portfolio/static/js/main.9c8a7ce5.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.9c8a7ce5.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.cf89ce6e.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.cf89ce6e.js.map",
+    "static/css/2.27dd871e.chunk.css": "/portfolio/static/css/2.27dd871e.chunk.css",
+    "static/js/2.0af1ae01.chunk.js": "/portfolio/static/js/2.0af1ae01.chunk.js",
+    "static/js/2.0af1ae01.chunk.js.map": "/portfolio/static/js/2.0af1ae01.chunk.js.map",
+    "static/js/3.30da86c2.chunk.js": "/portfolio/static/js/3.30da86c2.chunk.js",
+    "static/js/3.30da86c2.chunk.js.map": "/portfolio/static/js/3.30da86c2.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/2.27dd871e.chunk.css.map": "/portfolio/static/css/2.27dd871e.chunk.css.map",
+    "static/css/main.0c19e074.chunk.css.map": "/portfolio/static/css/main.0c19e074.chunk.css.map",
+    "static/js/2.0af1ae01.chunk.js.LICENSE.txt": "/portfolio/static/js/2.0af1ae01.chunk.js.LICENSE.txt",
+    "static/media/Chat.129ab10e.JPG": "/portfolio/static/media/Chat.129ab10e.JPG",
+    "static/media/LocoCart.ec2b46e9.JPG": "/portfolio/static/media/LocoCart.ec2b46e9.JPG",
+    "static/media/PhoneCompanion.e1aec530.jpg": "/portfolio/static/media/PhoneCompanion.e1aec530.jpg",
+    "static/media/gifter.d208d90e.JPG": "/portfolio/static/media/gifter.d208d90e.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf89ce6e.js",
+    "static/css/2.27dd871e.chunk.css",
+    "static/js/2.0af1ae01.chunk.js",
+    "static/css/main.0c19e074.chunk.css",
+    "static/js/main.9c8a7ce5.chunk.js"
+  ]
+}
