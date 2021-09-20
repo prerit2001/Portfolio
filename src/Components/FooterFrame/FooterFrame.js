@@ -14,34 +14,73 @@ import {
   WebsiteRights,
 } from "./FooterFrame.element";
 
-import {GrFormLocation,GrResume} from 'react-icons/gr'
-import {AiFillPhone,AiFillMail,AiFillLinkedin,AiFillGithub,} from 'react-icons/ai'
+import { GrFormLocation, GrResume } from "react-icons/gr";
+import {
+  AiFillPhone,
+  AiFillMail,
+  AiFillLinkedin,
+  AiFillGithub,
+} from "react-icons/ai";
 
 export const Footer = () => {
-  const [text, settext] = React.useState(sessionStorage.getItem("Mode")=="Dark" ? "#000" : "#fff");
+  const [text, settext] = React.useState(
+    sessionStorage.getItem("Mode") == "Dark" ? "#000" : "#fff"
+  );
   return (
     <>
       <FooterContainer>
         <FooterSubscription>
-          <FooterSubHeading style={{color: `${text}`}}>
-            <b>Get Bang The Subscribe Button Below To Recieve My Latest Updates.</b>
+          <FooterSubHeading style={{ color: `${text}` }}>
+            <b>
+              Get Bang The Subscribe Button Below To Recieve My Latest Updates.
+            </b>
           </FooterSubHeading>
           <div class="custom-form">
-          <div class="custom-form-label">
-                    <label for="userid">Email Address</label>
-                </div>
-                <input type="text" name="userid" class="custom-form-control" placeholder="" required="" />
-                <br/>
-                <Button variant="primary" style={{background : "#16569a",marginTop: "5px"}}>Subscribe</Button>{' '}
+            <div class="custom-form-label">
+              <label for="userid">Email Address</label>
+            </div>
+            <input
+              type="text"
+              name="userid"
+              class="custom-form-control"
+              placeholder=""
+              required=""
+            />
+            <br />
+            <Button
+              variant="primary"
+              style={{ background: "#16569a", marginTop: "5px" }}
+            >
+              Subscribe
+            </Button>{" "}
           </div>
         </FooterSubscription>
-        <div style={{color: `${text}`,fontSize: "2rem",marginTop: "20px"}}>
-            <AiFillLinkedin/>　
-            <AiFillMail/>　
-            <AiFillGithub/>　
-            </div>
-            <br/>
-           <div style={{color: `${text}`,textAlign: "center"}}><b> © Copyright Prerit Kumar Jha. All Rights Reserved </b></div>
+        <div style={{ color: `${text}`, fontSize: "2rem", marginTop: "20px" }}>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/preritkrjha/"
+            style={{ color: "white" }}
+          >
+            <AiFillLinkedin />
+          </a>
+          　
+          <a
+            target="_blank"
+            href="https://github.com/prerit2001/"
+            style={{ color: "white" }}
+          >
+            <AiFillGithub />
+          </a>
+          　
+          <a>
+            {" "}
+            <AiFillMail />
+          </a>
+        </div>
+        <br />
+        <div style={{ color: `${text}`, textAlign: "center" }}>
+          <b> © Copyright Prerit Kumar Jha. All Rights Reserved </b>
+        </div>
       </FooterContainer>
     </>
   );
