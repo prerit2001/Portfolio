@@ -72,7 +72,7 @@ export const Footer = () => {
             <AiFillGithub />
           </a>
           　
-          <a>
+          <a style={{ color: "white" }}>
             {" "}
             <AiFillMail />
           </a>

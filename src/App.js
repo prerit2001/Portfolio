@@ -115,7 +115,7 @@ class App extends React.Component {
             {" "}
             <ProjectFrame />
           </div>
-          <div id="conctact" style={{ width: "100%" }}>
+          <div id="contact" style={{ width: "100%" }}>
             {" "}
             <ContactFrame />
           </div>

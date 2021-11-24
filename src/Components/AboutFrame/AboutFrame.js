@@ -98,7 +98,7 @@ export const AboutFrame = () => {
                 <b style={{ fontSize: "1.5rem" }}>LeetCode</b>
                 <br />
                 <b style={{ color: "#ff8c00" }}>
-                  Rated 1994
+                  Rated 2078
                   <br />
                   Knight
                 </b>
