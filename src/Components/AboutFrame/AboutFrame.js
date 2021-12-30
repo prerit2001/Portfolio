@@ -59,15 +59,17 @@ export const AboutFrame = () => {
                 border: `4px solid ${border}`,
               }}
             >
-              <p>
-                <b style={{ fontSize: "1.5rem" }}>CodeForces</b>
-                <br />
-                <b style={{ color: "#ff8c00" }}>
-                  Rated 1639
+              <a href="https://codeforces.com/profile/prerit2001">
+                <p>
+                  <b style={{ fontSize: "1.5rem" }}>CodeForces</b>
                   <br />
-                  Expert
-                </b>
-              </p>
+                  <b style={{ color: "#0056b3" }}>
+                    Rated 1639
+                    <br />
+                    Expert
+                  </b>
+                </p>
+              </a>
             </div>
             <div
               class="colum"
@@ -77,14 +79,16 @@ export const AboutFrame = () => {
                 border: `4px solid ${border}`,
               }}
             >
-              <p>
-                <b style={{ fontSize: "1.5rem" }}>CodeChef</b>
-                <br />
-                <b style={{ color: "#ff8c00" }}>
-                  Rated 2063
-                  <br />5 Star
-                </b>
-              </p>
+              <a href="https://www.codechef.com/users/prerit2001">
+                <p>
+                  <b style={{ fontSize: "1.5rem" }}>CodeChef</b>
+                  <br />
+                  <b style={{ color: "#0056b3" }}>
+                    Rated 2088
+                    <br />5 Star
+                  </b>
+                </p>
+              </a>
             </div>
             <div
               class="colum"
@@ -94,15 +98,17 @@ export const AboutFrame = () => {
                 border: `4px solid ${border}`,
               }}
             >
-              <p>
-                <b style={{ fontSize: "1.5rem" }}>LeetCode</b>
-                <br />
-                <b style={{ color: "#ff8c00" }}>
-                  Rated 2078
+              <a href="https://leetcode.com/legend_op/">
+                <p>
+                  <b style={{ fontSize: "1.5rem" }}>LeetCode</b>
                   <br />
-                  Knight
-                </b>
-              </p>
+                  <b style={{ color: "#0056b3" }}>
+                    Rated 2080
+                    <br />
+                    Knight
+                  </b>
+                </p>
+              </a>
             </div>
           </div>
         </div>

@@ -69,26 +69,34 @@ export const AchievementsFrame = () => {
                 <br />
                 <li>
                   <b>CodeForces</b> :
-                  <strong style={{ color: "orange" }}>
-                    {" "}
-                    Rating 1639 : Expert
-                  </strong>{" "}
-                  : <i>[ @prerit2001 ]</i>{" "}
+                  <a href="https://codeforces.com/profile/prerit2001">
+                    <strong style={{ color: "#0056b3" }}>
+                      {" "}
+                      Rating 1639 : Expert
+                    </strong>{" "}
+                    : <i>[ @prerit2001 ]</i>{" "}
+                  </a>
                 </li>
                 <li>
                   <b>CodeChef</b> :
-                  <strong style={{ color: "orange" }}>
-                    {" "}
-                    Rating 2063 : 5 Star
-                  </strong>{" "}
-                  : <i>[ @legend_op</i> ]
+                  <a href="https://www.codechef.com/users/prerit2001">
+                    <strong style={{ color: "#0056b3" }}>
+                      {" "}
+                      Rating 2088 : 5 Star
+                    </strong>{" "}
+                    : <i>[ @prerit2001</i> ]
+                  </a>
                 </li>
                 <li>
-                  <b>LeetCode</b> :{" "}
-                  <strong style={{ color: "orange" }}>
-                    Rating 1944 : Knight
-                  </strong>{" "}
-                  <i>: [ @legend_op ]</i>{" "}
+                  <b>LeetCode</b>
+                  <a href="https://leetcode.com/legend_op/">
+                    {" "}
+                    :{" "}
+                    <strong style={{ color: "#0056b3" }}>
+                      Rating 2080 : Knight
+                    </strong>{" "}
+                    <i>: [ @legend_op ]</i>{" "}
+                  </a>
                 </li>
               </ul>
             </p>
