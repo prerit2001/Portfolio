@@ -64,7 +64,7 @@ export const AboutFrame = () => {
                   <b style={{ fontSize: "1.5rem" }}>CodeForces</b>
                   <br />
                   <b style={{ color: "#0056b3" }}>
-                    Rated 1639
+                    Rated 1641
                     <br />
                     Expert
                   </b>
