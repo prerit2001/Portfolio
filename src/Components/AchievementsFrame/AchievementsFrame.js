@@ -1,5 +1,7 @@
 import React from "react";
 import "./Achievements.scss";
+import Parse from "parse";
+import { useEffect } from "react";
 
 export const AchievementsFrame = () => {
   const [background, setmode] = React.useState(
@@ -8,6 +10,40 @@ export const AchievementsFrame = () => {
   const [text, settext] = React.useState(
     sessionStorage.getItem("Mode") == "Dark" ? "#fff" : "#374054"
   );
+
+  const [cc, setCc] = React.useState("Loading ...");
+  const [cf, setCf] = React.useState("Loading ...");
+  const [lc, setLc] = React.useState("Loading ...");
+
+  async function addRating() {
+    try {
+      const newPerson = new Parse.Object("Rating");
+      newPerson.set("codechef", "2088");
+      newPerson.set("codeforces", "1679");
+      newPerson.set("leetcode", "2167");
+      await newPerson.save();
+    } catch (error) {
+      console.log("Error saving new Data: ", error);
+    }
+  }
+
+  async function fetchRating() {
+    let query = new Parse.Query("Rating");
+    let queryResult = await query.findAll();
+    const currentPerson = queryResult[0];
+    console.log("CF", currentPerson.get("codeforces"));
+    console.log("CC", currentPerson.get("codechef"));
+    console.log("LC", currentPerson.get("leetcode"));
+    setCf(currentPerson.get("codeforces"));
+    setCc(currentPerson.get("codechef"));
+    setLc(currentPerson.get("leetcode"));
+  }
+
+  useEffect(() => {
+    // addRating();
+    fetchRating();
+  }, []);
+
   return (
     <div>
       <div
@@ -72,7 +108,7 @@ export const AchievementsFrame = () => {
                   <a href="https://codeforces.com/profile/prerit2001">
                     <strong style={{ color: "#0056b3" }}>
                       {" "}
-                      Rating 1639 : Expert
+                      Rating {cf} : Expert
                     </strong>{" "}
                     : <i>[ @prerit2001 ]</i>{" "}
                   </a>
@@ -82,7 +118,7 @@ export const AchievementsFrame = () => {
                   <a href="https://www.codechef.com/users/prerit2001">
                     <strong style={{ color: "#0056b3" }}>
                       {" "}
-                      Rating 2088 : 5 Star
+                      Rating {cc} : 5 Star
                     </strong>{" "}
                     : <i>[ @prerit2001</i> ]
                   </a>
@@ -93,7 +129,7 @@ export const AchievementsFrame = () => {
                     {" "}
                     :{" "}
                     <strong style={{ color: "#0056b3" }}>
-                      Rating 2080 : Knight
+                      Rating {lc} : Knight
                     </strong>{" "}
                     <i>: [ @legend_op ]</i>{" "}
                   </a>

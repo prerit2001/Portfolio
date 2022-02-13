@@ -1,5 +1,7 @@
 import React from "react";
 import "./AboutFrame.scss";
+import Parse from "parse";
+import { useEffect } from "react";
 
 export const AboutFrame = () => {
   const [background, setmode] = React.useState(
@@ -11,6 +13,58 @@ export const AboutFrame = () => {
   const [border, setborder] = React.useState(
     sessionStorage.getItem("Mode") == "Dark" ? "gray" : "#fff"
   );
+  const [cc, setCc] = React.useState("Loading ...");
+  const [cf, setCf] = React.useState("Loading ...");
+  const [lc, setLc] = React.useState("Loading ...");
+  const [intro, setIntro] = React.useState("Loading ...");
+
+  async function addRating() {
+    try {
+      const newPerson = new Parse.Object("Rating");
+      newPerson.set("codechef", "2088");
+      newPerson.set("codeforces", "1679");
+      newPerson.set("leetcode", "2167");
+      await newPerson.save();
+    } catch (error) {
+      console.log("Error saving new Data: ", error);
+    }
+  }
+
+  async function addIntro() {
+    try {
+      const newPerson = new Parse.Object("Intro");
+      newPerson.set(
+        "intro",
+        "Hello, I am Prerit Kumar Jha, an undergraduate student, currently in my penultimate year, pursuing B.Tech in Computer Science Engineering(CSE) at Indian Institute of Information Technology(IIIT), Pune."
+      );
+      await newPerson.save();
+    } catch (error) {
+      console.log("Error saving new Data: ", error);
+    }
+  }
+
+  async function fetch() {
+    let query = new Parse.Query("Rating");
+    let queryResult = await query.findAll();
+    const currentPerson = queryResult[0];
+    console.log("CF", currentPerson.get("codeforces"));
+    console.log("CC", currentPerson.get("codechef"));
+    console.log("LC", currentPerson.get("leetcode"));
+    setCf(currentPerson.get("codeforces"));
+    setCc(currentPerson.get("codechef"));
+    setLc(currentPerson.get("leetcode"));
+    let query2 = new Parse.Query("Intro");
+    let queryResult2 = await query2.findAll();
+    const currentPerson2 = queryResult2[0];
+    setIntro(currentPerson2.get("intro"));
+  }
+
+  useEffect(() => {
+    // addRating();
+    // addIntro();
+    fetch();
+  }, []);
+
   return (
     <>
       <div
@@ -37,12 +91,7 @@ export const AboutFrame = () => {
         <br />
         <div className="aboutf" style={{ margin: "auto", color: "#74808A" }}>
           <p>
-            Hello, I am <strong>Prerit Kumar Jha</strong>, an undergraduate
-            student, currently in my second year, pursuing B.Tech in Computer
-            Science Engineering<strong>(CSE)</strong> at{" "}
-            <strong>
-              Indian Institute of Information Technology(IIIT), Pune.
-            </strong>
+            <div dangerouslySetInnerHTML={{ __html: intro }} />
           </p>
           <p>
             Grounded and solution oriented CS student. Adept at motivating self
@@ -64,7 +113,7 @@ export const AboutFrame = () => {
                   <b style={{ fontSize: "1.5rem" }}>CodeForces</b>
                   <br />
                   <b style={{ color: "#0056b3" }}>
-                    Rated 1641
+                    Rated {cf}
                     <br />
                     Expert
                   </b>
@@ -84,7 +133,7 @@ export const AboutFrame = () => {
                   <b style={{ fontSize: "1.5rem" }}>CodeChef</b>
                   <br />
                   <b style={{ color: "#0056b3" }}>
-                    Rated 2088
+                    Rated {cc}
                     <br />5 Star
                   </b>
                 </p>
@@ -103,7 +152,7 @@ export const AboutFrame = () => {
                   <b style={{ fontSize: "1.5rem" }}>LeetCode</b>
                   <br />
                   <b style={{ color: "#0056b3" }}>
-                    Rated 2080
+                    Rated {lc}
                     <br />
                     Knight
                   </b>
