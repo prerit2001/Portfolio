@@ -1,29 +1,32 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.5bba1779.chunk.css",
-    "main.js": "/Portfolio/static/js/main.121112f3.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.121112f3.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.c6632fe7.chunk.css",
+    "main.js": "/Portfolio/static/js/main.e25c1b52.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.e25c1b52.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.88db2d2f.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.88db2d2f.js.map",
     "static/css/2.27dd871e.chunk.css": "/Portfolio/static/css/2.27dd871e.chunk.css",
-    "static/js/2.48fa9627.chunk.js": "/Portfolio/static/js/2.48fa9627.chunk.js",
-    "static/js/2.48fa9627.chunk.js.map": "/Portfolio/static/js/2.48fa9627.chunk.js.map",
+    "static/js/2.7ed2be7b.chunk.js": "/Portfolio/static/js/2.7ed2be7b.chunk.js",
+    "static/js/2.7ed2be7b.chunk.js.map": "/Portfolio/static/js/2.7ed2be7b.chunk.js.map",
     "static/js/3.b013566c.chunk.js": "/Portfolio/static/js/3.b013566c.chunk.js",
     "static/js/3.b013566c.chunk.js.map": "/Portfolio/static/js/3.b013566c.chunk.js.map",
     "index.html": "/Portfolio/index.html",
     "static/css/2.27dd871e.chunk.css.map": "/Portfolio/static/css/2.27dd871e.chunk.css.map",
-    "static/css/main.5bba1779.chunk.css.map": "/Portfolio/static/css/main.5bba1779.chunk.css.map",
-    "static/js/2.48fa9627.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.48fa9627.chunk.js.LICENSE.txt",
+    "static/css/main.c6632fe7.chunk.css.map": "/Portfolio/static/css/main.c6632fe7.chunk.css.map",
+    "static/js/2.7ed2be7b.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.7ed2be7b.chunk.js.LICENSE.txt",
     "static/media/Chat.129ab10e.JPG": "/Portfolio/static/media/Chat.129ab10e.JPG",
+    "static/media/Explora.eda762cd.png": "/Portfolio/static/media/Explora.eda762cd.png",
     "static/media/LocoCart.ec2b46e9.JPG": "/Portfolio/static/media/LocoCart.ec2b46e9.JPG",
     "static/media/PhoneCompanion.e1aec530.jpg": "/Portfolio/static/media/PhoneCompanion.e1aec530.jpg",
-    "static/media/gifter.d208d90e.JPG": "/Portfolio/static/media/gifter.d208d90e.JPG"
+    "static/media/Pmat.a8c7579c.png": "/Portfolio/static/media/Pmat.a8c7579c.png",
+    "static/media/gifter.d208d90e.JPG": "/Portfolio/static/media/gifter.d208d90e.JPG",
+    "static/media/texas.4aadb124.png": "/Portfolio/static/media/texas.4aadb124.png"
   },
   "entrypoints": [
     "static/js/runtime-main.88db2d2f.js",
     "static/css/2.27dd871e.chunk.css",
-    "static/js/2.48fa9627.chunk.js",
-    "static/css/main.5bba1779.chunk.css",
-    "static/js/main.121112f3.chunk.js"
+    "static/js/2.7ed2be7b.chunk.js",
+    "static/css/main.c6632fe7.chunk.css",
+    "static/js/main.e25c1b52.chunk.js"
   ]
 }
