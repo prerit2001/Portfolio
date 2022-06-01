@@ -48,13 +48,13 @@ export const ExperiencesFrame = () => {
             borderRadius: "20px",
           }}
         >
-          <div style={{ width: "30%" }}>
+          <div className="expimg">
             <img
               src={texas}
               style={{ height: "100%", width: "100%", borderRadius: "20px" }}
             />
           </div>
-          <div style={{ width: "70%" }}>
+          <div className="expall">
             <h2>Texas Instruments</h2>
             <b>Application Development Intern</b> | Apr 2022 – Jul 2022
             <hr />
@@ -96,13 +96,13 @@ export const ExperiencesFrame = () => {
             borderRadius: "20px",
           }}
         >
-          <div style={{ width: "30%" }}>
+          <div className="expimg">
             <img
               src={comet}
               style={{ height: "100%", width: "100%", borderRadius: "20px" }}
             />
           </div>
-          <div style={{ width: "70%" }}>
+          <div className="expall">
             <h2>COMET Labs</h2>
             <b>MERN Stack Backend Developer</b> | Dec 2020 – Apr 2021
             <hr />
