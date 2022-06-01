@@ -125,12 +125,11 @@ export const HomeFrame = () => {
         <br />
         <p className="masthead-intro">
           <Button
-            target="_blank"
-            href="https://drive.google.com/file/d/12BQg0YWQ4xkQpR0LFWBaA0UGLidkIfBq/view"
+            href="#contact"
             variant="outline-light"
             style={{ borderRadius: "1%" }}
           >
-            View Resume
+            Contact
           </Button>
         </p>
         <p className="masthead-intro" style={{ color: `${text2}` }}>
@@ -155,9 +154,11 @@ export const HomeFrame = () => {
               }}
             />
           </a>
-          <AiFillMail
-            style={{ fontSize: "30px", cursor: "pointer", color: "white" }}
-          />
+          <a href="mailto:preritkrjha@gmail.com">
+            <AiFillMail
+              style={{ fontSize: "30px", cursor: "pointer", color: "white" }}
+            />
+          </a>
         </p>
       </header>
       <br />

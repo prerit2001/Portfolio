@@ -79,13 +79,17 @@ export const ContactFrame = () => {
 
   return (
     <div
-      style={{ textAlign: "center", marginTop: "40px", marginBottom: "40px" }}
+      style={{
+        textAlign: "center",
+        marginTop: "40px",
+        marginBottom: "40px",
+        background: "white",
+      }}
     >
       <p
         class="underline-small"
         style={{
           textAlign: "center",
-          fontFamily: "'Lato', sans-serif",
           fontSize: "2em",
           color: "#374054",
         }}
@@ -166,37 +170,32 @@ export const ContactFrame = () => {
             <br />
             A CP-DEV Geek from IIIT Pune
             <hr />
-            <p style={{ textAlign: "center" }}>
-              <AiFillPhone /> (+91) 9110939089 <br />
+            <p style={{ textAlign: "center", display: "block" }}>
               <AiFillMail /> preritkrjha@gmail.com <br />
               <GrFormLocation /> Patna, Bihar <br />
-              <a
-                target="_blank"
-                href="https://www.linkedin.com/in/preritkrjha/"
-                style={{ color: "black" }}
-              >
-                <AiFillLinkedin />
-              </a>
-              　
-              <a
-                target="_blank"
-                href="https://github.com/prerit2001/"
-                style={{ color: "black" }}
-              >
-                <AiFillGithub />
-              </a>
-              　
-              <a>
-                {" "}
-                <AiFillMail />
-              </a>
-              　
-              <a
-                target="_blank"
-                href="https://drive.google.com/file/d/1sqyABZgDtD2Qfemcuczd19AlRzJpc6WF/view?usp=sharing"
-              >
-                <GrResume />
-              </a>
+              <div style={{ margin: "auto" }}>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/preritkrjha/"
+                  style={{ color: "black" }}
+                >
+                  <AiFillLinkedin />
+                </a>
+                　
+                <a
+                  target="_blank"
+                  href="https://github.com/prerit2001/"
+                  style={{ color: "black" }}
+                >
+                  <AiFillGithub />
+                </a>
+                　
+                <a>
+                  {" "}
+                  <AiFillMail />
+                </a>
+                　
+              </div>
             </p>
           </div>
         </div>

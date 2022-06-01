@@ -70,7 +70,6 @@ export const AboutFrame = () => {
       <div
         style={{
           textAlign: "center",
-          fontFamily: "'Lato', sans-serif",
           background: "white",
           padding: "50px",
         }}
@@ -79,7 +78,6 @@ export const AboutFrame = () => {
           class="underline-small"
           style={{
             textAlign: "center",
-            fontFamily: "'Lato', sans-serif",
             fontSize: "2em",
             color: "#374054",
           }}
@@ -93,12 +91,7 @@ export const AboutFrame = () => {
           <p>
             <div dangerouslySetInnerHTML={{ __html: intro }} />
           </p>
-          <p>
-            Grounded and solution oriented CS student. Adept at motivating self
-            and others. Passionate about new data structure, algorithm and
-            mathematics.Proficient in web development and android development
-            both.
-          </p>
+
           <div class="ro" style={{ border: `4px solid ${border}` }}>
             <div
               class="colum"

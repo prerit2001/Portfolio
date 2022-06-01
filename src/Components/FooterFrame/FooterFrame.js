@@ -50,6 +50,7 @@ export const Footer = () => {
             <Button
               variant="primary"
               style={{ background: "#16569a", marginTop: "5px" }}
+              onClick={(e) => alert("Thanks, Now You Will Recieve My Update")}
             >
               Subscribe
             </Button>{" "}

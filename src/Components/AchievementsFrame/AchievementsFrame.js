@@ -45,11 +45,10 @@ export const AchievementsFrame = () => {
   }, []);
 
   return (
-    <div>
+    <div style={{ background: "white" }}>
       <div
         style={{
           textAlign: "center",
-          fontFamily: "'Lato', sans-serif",
           padding: "50px",
         }}
       >
@@ -57,7 +56,6 @@ export const AchievementsFrame = () => {
           class="underline-small"
           style={{
             textAlign: "center",
-            fontFamily: "'Lato', sans-serif",
             fontSize: "2em",
             color: "#374054",
           }}
@@ -129,7 +127,7 @@ export const AchievementsFrame = () => {
                     {" "}
                     :{" "}
                     <strong style={{ color: "#0056b3" }}>
-                      Rating {lc} : Knight
+                      Rating {lc} : Guardian
                     </strong>{" "}
                     <i>: [ @legend_op ]</i>{" "}
                   </a>

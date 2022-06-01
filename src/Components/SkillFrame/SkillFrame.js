@@ -12,7 +12,7 @@ export const SkillFrame = () => {
     <div
       style={{
         textAlign: "center",
-        fontFamily: "'Lato', sans-serif",
+        // fontFamily: "'Lato', sans-serif",
         background: `${background}`,
         padding: "50px",
       }}
@@ -21,7 +21,7 @@ export const SkillFrame = () => {
         class="underline-small"
         style={{
           textAlign: "center",
-          fontFamily: "'Lato', sans-serif",
+          // fontFamily: "'Lato', sans-serif",
           fontSize: "2em",
           color: `${text}`,
         }}

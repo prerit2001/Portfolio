@@ -5,6 +5,8 @@ import LocoCart from "./../../Pic/LocoCart.JPG";
 import Gifter from "./../../Pic/gifter.JPG";
 import ChatApp from "./../../Pic/Chat.JPG";
 import PhoneCompanion from "./../../Pic/PhoneCompanion.jpg";
+import Explora from "./../../Pic/Explora.png";
+import Pmat from "./../../Pic/Pmat.png";
 
 export const ProjectFrame = () => {
   const [background, setmode] = React.useState(
@@ -17,7 +19,7 @@ export const ProjectFrame = () => {
     <div
       style={{
         textAlign: "center",
-        fontFamily: "'Lato', sans-serif",
+        // fontFamily: "'Lato', sans-serif",
         background: `${background}`,
         padding: "10px",
       }}
@@ -26,7 +28,7 @@ export const ProjectFrame = () => {
         class="underline-small"
         style={{
           textAlign: "center",
-          fontFamily: "'Lato', sans-serif",
+          // fontFamily: "'Lato', sans-serif",
           fontSize: "2em",
           color: `${text}`,
         }}
@@ -36,7 +38,45 @@ export const ProjectFrame = () => {
       <br />
       <br />
       <br />
-
+      <div class="container">
+        <div class="layout" style={{ margin: "auto" }}>
+          <p
+            class="col col-main"
+            style={{ background: "white", transform: "translate(-8px,0)" }}
+          >
+            <strong>Explora</strong>
+            <br />
+            A One Stop Destiny For All Travel Needs
+            <br />
+            <br />
+            <img src={Explora} width="100%" height="300px" />
+            <a href="https://github.com/BTP-Project-Semester-6" target="_blank">
+              <Button variant="outline-primary" style={{ margin: "10px" }}>
+                Explore
+              </Button>{" "}
+            </a>
+          </p>
+          <p
+            class="col col-complementary"
+            role="complementary"
+            style={{ background: "white", transform: "translate(-8px,0)" }}
+          >
+            <strong>PMAT</strong>
+            <br />
+            Project Management, Assistance and Tracking
+            <br />
+            <br />
+            <img src={Pmat} width="50%" height="300px" />
+            <br />
+            <a href="https://github.com/BTP-Sem-5-Project" target="_blank">
+              <Button variant="outline-primary" style={{ margin: "10px" }}>
+                Explore
+              </Button>{" "}
+            </a>
+          </p>
+        </div>
+      </div>
+      <br />
       <div class="container">
         <div class="layout" style={{ margin: "auto" }}>
           <p
@@ -49,23 +89,12 @@ export const ProjectFrame = () => {
             <br />
             <br />
             <img src={LocoCart} width="100%" height="300px" />
-            <Button variant="outline-primary" style={{ margin: "10px" }}>
-              <a href="https://github.com/prerit2001/" target="_blank">
-                <a href="https://github.com/prerit2001/" target="_blank">
-                  Source
-                </a>
-              </a>
-            </Button>
-            <Button variant="outline-primary" style={{ margin: "10px" }}>
-              <a href="https://github.com/prerit2001/" target="_blank">
-                Demo
-              </a>
-            </Button>
-            <Button variant="outline-primary" style={{ margin: "10px" }}>
-              <a href="https://github.com/prerit2001/" target="_blank">
-                More
-              </a>
-            </Button>
+            <a href="https://github.com/BTP-Project-Semester-4" target="_blank">
+              {" "}
+              <Button variant="outline-primary" style={{ margin: "10px" }}>
+                Explore
+              </Button>{" "}
+            </a>
           </p>
           <p
             class="col col-complementary"
@@ -79,21 +108,15 @@ export const ProjectFrame = () => {
             <br />
             <img src={PhoneCompanion} width="50%" height="300px" />
             <br />
-            <Button variant="outline-primary" style={{ margin: "10px" }}>
-              <a href="https://github.com/prerit2001/" target="_blank">
-                Source
-              </a>
-            </Button>
-            <Button variant="outline-primary" style={{ margin: "10px" }}>
-              <a href="https://github.com/prerit2001/" target="_blank">
-                Demo
-              </a>
-            </Button>
-            <Button variant="outline-primary" style={{ margin: "10px" }}>
-              <a href="https://github.com/prerit2001/" target="_blank">
-                More
-              </a>
-            </Button>
+            <a
+              href="https://github.com/prerit2001/Phone-Companion-Android-Studio"
+              target="_blank"
+            >
+              {" "}
+              <Button variant="outline-primary" style={{ margin: "10px" }}>
+                Explore
+              </Button>{" "}
+            </a>
           </p>
         </div>
       </div>
@@ -110,21 +133,14 @@ export const ProjectFrame = () => {
             <br />
             <br />
             <img src={Gifter} width="100%" height="300px" />
-            <Button variant="outline-primary" style={{ margin: "10px" }}>
-              <a href="https://github.com/prerit2001/" target="_blank">
-                Source
-              </a>
-            </Button>
-            <Button variant="outline-primary" style={{ margin: "10px" }}>
-              <a href="https://github.com/prerit2001/" target="_blank">
-                Demo
-              </a>
-            </Button>
-            <Button variant="outline-primary" style={{ margin: "10px" }}>
-              <a href="https://github.com/prerit2001/" target="_blank">
-                More
-              </a>
-            </Button>
+            <a
+              href="https://github.com/prerit2001/Gifter-MERN-Stack"
+              target="_blank"
+            >
+              <Button variant="outline-primary" style={{ margin: "10px" }}>
+                Explore
+              </Button>{" "}
+            </a>
           </p>
           <p
             class="col col-complementary"
@@ -144,21 +160,15 @@ export const ProjectFrame = () => {
               height="300px"
             />
             <br />
-            <Button variant="outline-primary" style={{ margin: "10px" }}>
-              <a href="https://github.com/prerit2001/" target="_blank">
-                Source
-              </a>
-            </Button>
-            <Button variant="outline-primary" style={{ margin: "10px" }}>
-              <a href="https://github.com/prerit2001/" target="_blank">
-                Demo
-              </a>
-            </Button>
-            <Button variant="outline-primary" style={{ margin: "10px" }}>
-              <a href="https://github.com/prerit2001/" target="_blank">
-                More
-              </a>
-            </Button>
+            <a
+              href="https://github.com/prerit2001/Whatsapp-Clone-Android-Stdio"
+              target="_blank"
+            >
+              {" "}
+              <Button variant="outline-primary" style={{ margin: "10px" }}>
+                Explore
+              </Button>{" "}
+            </a>
           </p>
         </div>
       </div>
@@ -182,21 +192,15 @@ export const ProjectFrame = () => {
               height="200px"
             />
             <br />
-            <Button variant="outline-primary" style={{ margin: "10px" }}>
-              <a href="https://github.com/prerit2001/" target="_blank">
-                Source
-              </a>
-            </Button>
-            <Button variant="outline-primary" style={{ margin: "10px" }}>
-              <a href="https://github.com/prerit2001/" target="_blank">
-                Demo
-              </a>
-            </Button>
-            <Button variant="outline-primary" style={{ margin: "10px" }}>
-              <a href="https://github.com/prerit2001/" target="_blank">
-                More
-              </a>
-            </Button>
+            <a
+              href="https://github.com/prerit2001/Movie-Recommendation-System-ML"
+              target="_blank"
+            >
+              {" "}
+              <Button variant="outline-primary" style={{ margin: "10px" }}>
+                Explore
+              </Button>{" "}
+            </a>
           </p>
           <p
             class="col col-complementary"
@@ -216,21 +220,15 @@ export const ProjectFrame = () => {
               height="200px"
             />
             <br />
-            <Button variant="outline-primary" style={{ margin: "10px" }}>
-              <a href="https://github.com/prerit2001/" target="_blank">
-                Source
-              </a>
-            </Button>
-            <Button variant="outline-primary" style={{ margin: "10px" }}>
-              <a href="https://github.com/prerit2001/" target="_blank">
-                Demo
-              </a>
-            </Button>
-            <Button variant="outline-primary" style={{ margin: "10px" }}>
-              <a href="https://github.com/prerit2001/" target="_blank">
-                More
-              </a>
-            </Button>
+            <a
+              href="https://github.com/prerit2001/Backtracking-Bump-Python-Pygame"
+              target="_blank"
+            >
+              {" "}
+              <Button variant="outline-primary" style={{ margin: "10px" }}>
+                Explore
+              </Button>
+            </a>
           </p>
         </div>
       </div>
@@ -247,21 +245,14 @@ export const ProjectFrame = () => {
             <br />
             <br />
             <img src={ChatApp} width="100%" height="300px" />
-            <Button variant="outline-primary" style={{ margin: "10px" }}>
-              <a href="https://github.com/prerit2001/" target="_blank">
-                Source
-              </a>
-            </Button>
-            <Button variant="outline-primary" style={{ margin: "10px" }}>
-              <a href="https://github.com/prerit2001/" target="_blank">
-                Demo
-              </a>
-            </Button>
-            <Button variant="outline-primary" style={{ margin: "10px" }}>
-              <a href="https://github.com/prerit2001/" target="_blank">
-                More
-              </a>
-            </Button>
+            <a
+              href="https://github.com/prerit2001/Web-Messenger-ReactJs-Firebase"
+              target="_blank"
+            >
+              <Button variant="outline-primary" style={{ margin: "10px" }}>
+                Explore
+              </Button>{" "}
+            </a>
           </p>
           <p
             class="col col-complementary"
@@ -281,21 +272,11 @@ export const ProjectFrame = () => {
               height="300px"
             />
             <br />
-            <Button variant="outline-primary" style={{ margin: "10px" }}>
-              <a href="https://github.com/prerit2001/" target="_blank">
-                Source
-              </a>
-            </Button>
-            <Button variant="outline-primary" style={{ margin: "10px" }}>
-              <a href="https://github.com/prerit2001/" target="_blank">
-                Demo
-              </a>
-            </Button>
-            <Button variant="outline-primary" style={{ margin: "10px" }}>
-              <a href="https://github.com/prerit2001/" target="_blank">
-                More
-              </a>
-            </Button>
+            <a href="https://github.com/BTP-Project/" target="_blank">
+              <Button variant="outline-primary" style={{ margin: "10px" }}>
+                Explore
+              </Button>
+            </a>
           </p>
         </div>
       </div>

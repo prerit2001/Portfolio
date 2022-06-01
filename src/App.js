@@ -48,28 +48,19 @@ class App extends React.Component {
     console.log(this.state.loading);
     if (loading) {
       return (
-        <div
-          className="sweet-loading"
-          style={{
-            textAlign: "center",
-            background: "#217dbb",
-            height: "1000px",
-            position: "relative",
-          }}
-        >
+        <div className="sweet-loading">
           <div
             style={{
-              margin: "0",
+              paddingTop: "10%",
               position: "absolute",
-              top: "200px",
               left: "50%",
-              transform: "translate(-50%, -50px)",
             }}
           >
             <img
               src="https://media3.giphy.com/media/DBJPIKSisfJMA/giphy.webp?cid=ecf05e47cza30ksffzwpz60ja1tjoff8cbsuhdtdbfe369vp&rid=giphy.webp&ct=g"
               width="100px"
               height="100px"
+              style={{ transform: "translateX(-40px)" }}
             />
             <br />
             <br />
@@ -80,9 +71,15 @@ class App extends React.Component {
               loading={this.state.loading}
             />
             <br />
-            <strong style={{ color: "white" }}>
+            <div
+              style={{
+                color: "white",
+                transform: "translateX(-10px)",
+                fontWeight: "bold",
+              }}
+            >
               {sessionStorage.getItem("Mode") == "Light" ? "Day" : "Night"}{" "}
-            </strong>
+            </div>
           </div>
         </div>
       );
